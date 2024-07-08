@@ -32,6 +32,12 @@ header {
     margin: 20px 0;
 }
 
+.logo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px; /* Adjust the max height to keep the logo small enough */
+}
+
 nav {
     background-color: #e0e0e0;
     padding: 10px 0;
@@ -131,5 +137,9 @@ nav ul li a {
 
     .food-item {
         width: 100%;
+    }
+
+    .logo img {
+        max-height: 80px; /* Smaller logo for smaller screens */
     }
 }
